@@ -1,0 +1,34 @@
+.green{
+border: 10px white solid;
+background: white;
+}
+.red{
+background-color: #A8F0F0;
+text-align: right;
+}
+#yellow{
+  
+  
+   
+}
+.blue{
+    border: 4px #C2E9E9  solid;
+    background: #e8f8f8;
+    padding: 5px 5px;
+    margin: 10px 0px 0px 0px;
+   
+
+}
+.blue .purple{
+    border-bottom: 2px blue dashed;
+}
+body{
+    background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif);
+}
+.blue img{
+    float: right;
+}
+div{
+    clear: left;
+    overflow: hidden;
+}

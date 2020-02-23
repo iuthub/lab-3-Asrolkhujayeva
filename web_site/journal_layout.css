@@ -1,34 +1,44 @@
 .green{
 border: 10px white solid;
 background: white;
+overflow: hidden;
 }
 .red{
 background-color: #A8F0F0;
 text-align: right;
 }
-#yellow{
-  
-  
-   
-}
+#yellow{}
 .blue{
     border: 4px #C2E9E9  solid;
     background: #e8f8f8;
     padding: 5px 5px;
     margin: 10px 0px 0px 0px;
-   
-
+    overflow: hidden;
+    
 }
-.blue .purple{
-    border-bottom: 2px blue dashed;
+.purple{
+    border-bottom: 2px #009097 dashed;
 }
 body{
+    
     background-image: url(http://www.cs.washington.edu/education/courses/190m/09sp/labs/2‐journal/images/background.gif);
 }
-.blue img{
+img{
     float: right;
 }
-div{
-    clear: left;
+
+
+.side{
+    border: 4px #C2E9E9  solid;
+    background: #A8F0F0;
+    border: #e8f8f8;
+    float: left;
+    flex: auto;
+    margin: 10px 10px 0px 0px;
+}
+.articles{
     overflow: hidden;
+}
+:hover{
+    background-color: yellow;
 }
